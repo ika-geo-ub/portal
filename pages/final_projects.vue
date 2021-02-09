@@ -16,7 +16,7 @@
             onmousewheel=""
             width="100%"
             height="533"
-            style="background: transparent; border: 1px solid #ccc;"
+            style="background: transparent; border: 1px solid #fff; height: 1400px;"
           ></iframe>
         </div>
       </template>
