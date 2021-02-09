@@ -57,29 +57,30 @@ export function createAll(fromDir, toFile, apiDir) {
       if (err) reject(err)
       const index = []
       const contents = {}
-      
-      files.forEach((file) => {
-        contents[file] = ''
-        const readStream = fs.createReadStream(`${fromDir}/${file}`, 'UTF-8')
-        readStream.on('data', (data, err) => {
-          if (err) throw err
-          contents[file] += data
-        })
-        readStream.on('end', () => {
-          const parsed = matter(contents[file])
-          delete parsed.buffer
-          parsed.data.slug = file.replace(/.md$/, '')
-          index.push(parsed)
+      if(files != null){
+        files.forEach((file) => {
+          contents[file] = ''
+          const readStream = fs.createReadStream(`${fromDir}/${file}`, 'UTF-8')
+          readStream.on('data', (data, err) => {
+            if (err) throw err
+            contents[file] += data
+          })
+          readStream.on('end', () => {
+            const parsed = matter(contents[file])
+            delete parsed.buffer
+            parsed.data.slug = file.replace(/.md$/, '')
+            index.push(parsed)
 
-          if (index.length === files.length) {
-            const writeStream = fs.createWriteStream(toFile, 'UTF-8')
-            let sorted = index.sort(compareDates).reverse()
-            sorted = flattenResource(sorted)
-            writeStream.write(JSON.stringify(sorted))
-            resolve(sorted)
-          }
+            if (index.length === files.length) {
+              const writeStream = fs.createWriteStream(toFile, 'UTF-8')
+              let sorted = index.sort(compareDates).reverse()
+              sorted = flattenResource(sorted)
+              writeStream.write(JSON.stringify(sorted))
+              resolve(sorted)
+            }
+          })
         })
-      })
+      }
     })
   })
 }
