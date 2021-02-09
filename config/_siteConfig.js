@@ -20,33 +20,7 @@ export default {
   mainMenu: [
     {
       name: 'Lingkup IKA',
-      link: '/about',
-      submenu: [
-        {
-          name: 'Latar Belakang',
-          link: '/about'
-        },
-        {
-          name: 'Kronologi Pembentukan',
-          link: '/about'
-        },
-        {
-          name: 'Musyawarah Besar',
-          link: '/about'
-        },
-        {
-          name: 'Struktur Organisasi',
-          link: '/about'
-        },
-        {
-          name: 'Program Kerja',
-          link: '/about'
-        },
-        {
-          name: 'Kontak',
-          link: '/about'
-        }
-      ]
+      link: '/about'
     },
     {
       name: 'Kegiatan IKA',
