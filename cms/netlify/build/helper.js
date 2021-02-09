@@ -53,9 +53,11 @@ export function createAll(fromDir, toFile, apiDir) {
   }
   return new Promise((resolve, reject) => {
     fs.readdir(fromDir, (err, files) => {
+      console.log(fromDir)
       if (err) reject(err)
       const index = []
       const contents = {}
+      
       files.forEach((file) => {
         contents[file] = ''
         const readStream = fs.createReadStream(`${fromDir}/${file}`, 'UTF-8')
