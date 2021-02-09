@@ -8,7 +8,7 @@
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>Career List</h3>
+          <h3>Project List</h3>
           <iframe
             class="airtable-embed"
             src="https://airtable.com/embed/shrJKS7yCvbPxQPq7?backgroundColor=gray"
