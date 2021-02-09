@@ -6,16 +6,7 @@
         blink: blinking
       }"
     >
-      <img
-        v-for="x in frames"
-        :key="x"
-        :src="`/logo-frames/logo-f${x - 1}.svg`"
-      />
-      <img
-        v-for="x in frames"
-        :key="`${x}-r`"
-        :src="`/logo-frames/logo-f${frames - x}.svg`"
-      />
+      <img v-for="x in frames" :key="x" :src="'/Logo.jpg'" />
     </div>
   </div>
 </template>
@@ -24,7 +15,7 @@ export default {
   name: 'SiteLogo',
   data() {
     return {
-      frames: 5,
+      frames: 1,
       currentFrame: 1,
       blinking: true
     }
@@ -38,11 +29,6 @@ export default {
 }
 </script>
 <style lang="scss">
-@keyframes logoBlink {
-  100% {
-    transform: translateY(-360px);
-  }
-}
 .logo-wrapper {
   position: relative;
   height: 50px;

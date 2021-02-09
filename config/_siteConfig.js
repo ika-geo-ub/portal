@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
+  siteName: 'IKA Geo UB',
+  tagline: 'Ikatan Alumni Geofisika Universitas Brawijaya',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -19,26 +19,54 @@ export default {
   },
   mainMenu: [
     {
-      name: 'About',
-      link: '/about'
+      name: 'Lingkup IKA',
+      link: '/about',
+      submenu: [
+        {
+          name: 'Latar Belakang',
+          link: '/about'
+        },
+        {
+          name: 'Kronologi Pembentukan',
+          link: '/about'
+        },
+        {
+          name: 'Musyawarah Besar',
+          link: '/about'
+        },
+        {
+          name: 'Struktur Organisasi',
+          link: '/about'
+        },
+        {
+          name: 'Program Kerja',
+          link: '/about'
+        },
+        {
+          name: 'Kontak',
+          link: '/about'
+        }
+      ]
     },
     {
-      name: 'Contact',
-      link: '/contact'
-    },
-    {
-      name: 'Categories',
+      name: 'Kegiatan IKA',
       link: '/categories'
     },
     {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
+      name: 'Anggota',
+      link: '/members'
     },
     {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
-      target: '_blank'
+      name: 'Info TA',
+      link: '/final_projects'
+    },
+    {
+      name: 'Info Loker',
+      link: '/careers'
+    },
+    {
+      name: 'Tracer Study',
+      link: '/tracer'
     }
   ],
   hero: {
