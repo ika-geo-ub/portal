@@ -1,12 +1,14 @@
 <template>
-  <div
-    :class="
-      `site-layout-width-${$siteConfig.layout.width} posts-theme-${$siteConfig.posts.theme}`
-    "
-  >
-    <site-nav />
-    <nuxt />
-    <site-footer></site-footer>
+    <div class="main-wrapper">
+        <div
+            :class="
+            `site-layout-width-${$siteConfig.layout.width} posts-theme-${$siteConfig.posts.theme}`
+            "
+        >
+            <site-nav />
+            <nuxt />
+        </div>
+        <site-footer></site-footer>
   </div>
 </template>
 
@@ -106,3 +108,12 @@ export default {
     }
 }
 </script>
+<style>
+.main-wrapper {
+	min-height: 100vh;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+</style>
+
