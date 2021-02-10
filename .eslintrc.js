@@ -15,8 +15,8 @@ module.exports = {
   // add your custom rules here
   //it is base on https://github.com/vuejs/eslint-config-vue
   rules: {
-      "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
-      "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
+      "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
+      "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
       "no-undef": "off",
       "no-unused-vars": "off",
       "no-redeclare": "off",
