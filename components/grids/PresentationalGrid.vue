@@ -21,33 +21,33 @@
 <script>
 import range from 'lodash.range'
 export default {
-  props: {
-    items: {
-      type: Array,
-      default: () => {
-        return []
-      }
+    props: {
+        items: {
+            type: Array,
+            default: () => {
+                return []
+            }
+        },
+        bottomLoader: { type: Boolean, default: false },
+        theme: {
+            type: String,
+            default: 'boxes'
+        },
+        perRow: {
+            type: Number,
+            default: 3
+        }
     },
-    bottomLoader: { type: Boolean, default: false },
-    theme: {
-      type: String,
-      default: 'boxes'
+    data() {
+        return {
+            placeholders: range(this.perRow).fill({})
+        }
     },
-    perRow: {
-      type: Number,
-      default: 3
+    computed: {
+        itemsComputed() {
+            return this.items.length ? this.items : this.placeholders
+        }
     }
-  },
-  data() {
-    return {
-      placeholders: range(this.perRow).fill({})
-    }
-  },
-  computed: {
-    itemsComputed() {
-      return this.items.length ? this.items : this.placeholders
-    }
-  }
 }
 </script>
 <style lang="scss" scoped>

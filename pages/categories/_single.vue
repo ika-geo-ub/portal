@@ -34,16 +34,16 @@
 <script>
 import { setPageData } from '../../helper'
 export default {
-  data() {
-    return {
-      allCats: []
+    data() {
+        return {
+            allCats: []
+        }
+    },
+    fetch({ store, params }) {
+        setPageData(store, { resource: 'category', slug: params.single })
+    },
+    async created() {
+        this.allCats = await this.$cms.category.getAll()
     }
-  },
-  fetch({ store, params }) {
-    setPageData(store, { resource: 'category', slug: params.single })
-  },
-  async created() {
-    this.allCats = await this.$cms.category.getAll()
-  }
 }
 </script>

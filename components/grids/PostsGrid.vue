@@ -19,19 +19,19 @@
 <script>
 import PostCard from '~/components/cards/PostCard'
 export default {
-  name: 'PostsGrid',
-  components: { PostCard },
-  props: {
-    perRow: { type: Number, default: 3 },
-    number: { type: Number, default: 0 },
-    order: { type: String, default: 'DESC' },
-    category: {
-      type: Array,
-      default() {
-        return []
-      }
-    },
-    exclude: { type: String, default: '' }
-  }
+    name: 'PostsGrid',
+    components: { PostCard },
+    props: {
+        perRow: { type: Number, default: 3 },
+        number: { type: Number, default: 0 },
+        order: { type: String, default: 'DESC' },
+        category: {
+            type: Array,
+            default() {
+                return []
+            }
+        },
+        exclude: { type: String, default: '' }
+    }
 }
 </script>

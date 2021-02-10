@@ -51,13 +51,13 @@
 import SiteSearch from '~/components/SiteSearch'
 import HamburgerButton from '~/components/HamburgerButton'
 export default {
-  name: 'SiteNav',
-  components: { SiteSearch, HamburgerButton },
-  data() {
-    return {
-      active: false
+    name: 'SiteNav',
+    components: { SiteSearch, HamburgerButton },
+    data() {
+        return {
+            active: false
+        }
     }
-  }
 }
 </script>
 <style lang="scss" scoped>

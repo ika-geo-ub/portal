@@ -20,19 +20,19 @@ import { mapState } from 'vuex'
 import { setPageData } from '../helper'
 
 export default {
-  name: 'HomePage',
-  head() {
-    return {
-      title: `Home | ${this.$siteConfig.siteName}`
+    name: 'HomePage',
+    head() {
+        return {
+            title: `Home | ${this.$siteConfig.siteName}`
+        }
+    },
+    components: {},
+    computed: {
+        ...mapState(['title', 'subtitle', 'featureImage'])
+    },
+    fetch({ store, params }) {
+        setPageData(store, { slug: 'home' })
     }
-  },
-  components: {},
-  computed: {
-    ...mapState(['title', 'subtitle', 'featureImage'])
-  },
-  fetch({ store, params }) {
-    setPageData(store, { slug: 'home' })
-  }
 }
 </script>
 

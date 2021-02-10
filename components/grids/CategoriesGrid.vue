@@ -18,13 +18,13 @@
 <script>
 import CategoryCard from '~/components/cards/CategoryCard'
 export default {
-  name: 'CategoriesGrid',
-  components: { CategoryCard },
-  props: {
-    perRow: { type: Number, default: 3 },
-    number: { type: Number, default: 0 },
-    order: { type: String, default: 'DESC' },
-    exclude: { type: String, default: '' }
-  }
+    name: 'CategoriesGrid',
+    components: { CategoryCard },
+    props: {
+        perRow: { type: Number, default: 3 },
+        number: { type: Number, default: 0 },
+        order: { type: String, default: 'DESC' },
+        exclude: { type: String, default: '' }
+    }
 }
 </script>

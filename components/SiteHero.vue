@@ -27,28 +27,28 @@
 </template>
 <script>
 export default {
-  name: 'SiteHero',
-  props: {
-    title: { type: String, default: '' },
-    subtitle: { type: String, default: '' },
-    image: { type: String, default: '' },
-    color: { type: String, default: '#469af0' },
-    theme: { type: String, default: '' }
-  },
-  computed: {
-    responsiveImage() {
-      if (this.image.indexOf('/uploads') === 0) {
-        return require(`~/assets${this.image}`)
-      }
-      return { src: this.image, srcSet: '' }
+    name: 'SiteHero',
+    props: {
+        title: { type: String, default: '' },
+        subtitle: { type: String, default: '' },
+        image: { type: String, default: '' },
+        color: { type: String, default: '#469af0' },
+        theme: { type: String, default: '' }
     },
-    computedTheme() {
-      if (this.theme === '' && this.$siteConfig.hero.theme) {
-        return this.$siteConfig.hero.theme
-      }
-      return this.theme || 'mist'
+    computed: {
+        responsiveImage() {
+            if (this.image.indexOf('/uploads') === 0) {
+                return require(`~/assets${this.image}`)
+            }
+            return { src: this.image, srcSet: '' }
+        },
+        computedTheme() {
+            if (this.theme === '' && this.$siteConfig.hero.theme) {
+                return this.$siteConfig.hero.theme
+            }
+            return this.theme || 'mist'
+        }
     }
-  }
 }
 </script>
 

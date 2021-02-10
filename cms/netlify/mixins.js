@@ -6,10 +6,10 @@ import { flattenResource } from './helper'
  * @type {{getOne(*): function}}
  */
 export const getOneMixin = {
-  getOne(slug) {
-    const resource = require(`~/content/${this.slugPlural}/${slug}.md`).default
-    return flattenResource(resource)
-  }
+    getOne(slug) {
+        const resource = require(`~/content/${this.slugPlural}/${slug}.md`).default
+        return flattenResource(resource)
+    }
 }
 
 /**
@@ -17,39 +17,39 @@ export const getOneMixin = {
  * @type {{getByNumber(*=, *=, *=): Promise}}
  */
 export const getByNumberMixin = {
-  async getByNumber(number, filter = false, firstTime = true) {
-    if (!filter) {
-      filter = (resource) => {
-        return resource
-      }
-    }
-    if (firstTime) {
-      this.reset()
-    }
-    this.gottenPage++
-    try {
-      const resources = await this.getByPage(this.gottenPage)
-      const filtered = resources.filter(filter)
-      let numbered = chunk(filtered, number)[0]
-      numbered = numbered ? flattenResource(numbered) : []
-      numbered = flattenResource(numbered)
-      if (numbered.length < number) {
-        try {
-          const more = await this.getByNumber(
-            number - numbered.length,
-            filter,
-            false
-          )
-          numbered = numbered.concat(more)
-        } catch (err) {
-          return numbered
+    async getByNumber(number, filter = false, firstTime = true) {
+        if (!filter) {
+            filter = (resource) => {
+                return resource
+            }
         }
-      }
-      return numbered
-    } catch (err) {
-      throw err
+        if (firstTime) {
+            this.reset()
+        }
+        this.gottenPage++
+        try {
+            const resources = await this.getByPage(this.gottenPage)
+            const filtered = resources.filter(filter)
+            let numbered = chunk(filtered, number)[0]
+            numbered = numbered ? flattenResource(numbered) : []
+            numbered = flattenResource(numbered)
+            if (numbered.length < number) {
+                try {
+                    const more = await this.getByNumber(
+                        number - numbered.length,
+                        filter,
+                        false
+                    )
+                    numbered = numbered.concat(more)
+                } catch (err) {
+                    return numbered
+                }
+            }
+            return numbered
+        } catch (err) {
+            throw err
+        }
     }
-  }
 }
 
 /**
@@ -57,26 +57,26 @@ export const getByNumberMixin = {
  * @type {{gottenPage: number, reset(): void, getByPage(*, *=): Promise}}
  */
 export const getByPageMixin = {
-  gottenPage: 0,
-  async getByPage(page, filter = false) {
-    if (!filter) {
-      filter = (resource) => {
-        return resource
-      }
+    gottenPage: 0,
+    async getByPage(page, filter = false) {
+        if (!filter) {
+            filter = (resource) => {
+                return resource
+            }
+        }
+        try {
+            let categories = await this.axios.$get(
+                `api/${this.slugPlural}/page-${page}.json`
+            )
+            categories = flattenResource(categories)
+            return categories.filter(filter)
+        } catch (err) {
+            throw err
+        }
+    },
+    reset() {
+        this.gottenPage = 0
     }
-    try {
-      let categories = await this.axios.$get(
-        `api/${this.slugPlural}/page-${page}.json`
-      )
-      categories = flattenResource(categories)
-      return categories.filter(filter)
-    } catch (err) {
-      throw err
-    }
-  },
-  reset() {
-    this.gottenPage = 0
-  }
 }
 
 /**
@@ -84,10 +84,10 @@ export const getByPageMixin = {
  * @type {{getAll(): Promise}}
  */
 export const getAllMixin = {
-  async getAll() {
-    const resources = await this.axios.$get(`api/${this.slugPlural}.json`)
-    return flattenResource(resources)
-  }
+    async getAll() {
+        const resources = await this.axios.$get(`api/${this.slugPlural}.json`)
+        return flattenResource(resources)
+    }
 }
 
 /**

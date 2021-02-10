@@ -30,11 +30,11 @@
 </template>
 <script>
 export default {
-  head() {
-    return {
-      title: `About | ${this.$siteConfig.siteName}`
-    }
-  },
-  components: {}
+    head() {
+        return {
+            title: `About | ${this.$siteConfig.siteName}`
+        }
+    },
+    components: {}
 }
 </script>

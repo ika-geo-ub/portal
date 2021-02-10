@@ -47,33 +47,33 @@
 <script>
 const imageDimensionDefault = '16x9'
 export default {
-  props: {
-    title: { type: String, default: '' },
-    image: { type: String, default: '' },
-    link: { type: String, default: '' },
-    imageDimensions: { type: String, default: imageDimensionDefault }
-  },
-  computed: {
-    imageRatioClass() {
-      const imageDimensions = this.imageDimensions || imageDimensionDefault
-      return imageDimensions.toLowerCase().replace('x', 'by')
+    props: {
+        title: { type: String, default: '' },
+        image: { type: String, default: '' },
+        link: { type: String, default: '' },
+        imageDimensions: { type: String, default: imageDimensionDefault }
     },
-    imageRatio() {
-      const imageDimensions = this.imageDimensions || imageDimensionDefault
-      return imageDimensions
-        .toLowerCase()
-        .split('x')
-        .map((size) => {
-          return size * 2000
-        })
-    },
-    responsiveImage() {
-      if (this.image.indexOf('/uploads') === 0) {
-        return require(`~/assets${this.image}`)
-      }
-      return { src: this.image, srcSet: '' }
+    computed: {
+        imageRatioClass() {
+            const imageDimensions = this.imageDimensions || imageDimensionDefault
+            return imageDimensions.toLowerCase().replace('x', 'by')
+        },
+        imageRatio() {
+            const imageDimensions = this.imageDimensions || imageDimensionDefault
+            return imageDimensions
+                .toLowerCase()
+                .split('x')
+                .map((size) => {
+                    return size * 2000
+                })
+        },
+        responsiveImage() {
+            if (this.image.indexOf('/uploads') === 0) {
+                return require(`~/assets${this.image}`)
+            }
+            return { src: this.image, srcSet: '' }
+        }
     }
-  }
 }
 </script>
 <style scoped lang="scss">

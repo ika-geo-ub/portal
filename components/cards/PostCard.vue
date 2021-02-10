@@ -25,33 +25,33 @@
 import GenericCard from './GenericCard'
 import { getFormattedDate } from '~/helper'
 export default {
-  components: { GenericCard },
-  props: {
-    title: {
-      type: String,
-      default: ''
+    components: { GenericCard },
+    props: {
+        title: {
+            type: String,
+            default: ''
+        },
+        image: {
+            type: String,
+            default: ''
+        },
+        link: {
+            type: String,
+            default: ''
+        },
+        date: {
+            type: String,
+            default: ''
+        },
+        author: {
+            type: String,
+            default: ''
+        }
     },
-    image: {
-      type: String,
-      default: ''
-    },
-    link: {
-      type: String,
-      default: ''
-    },
-    date: {
-      type: String,
-      default: ''
-    },
-    author: {
-      type: String,
-      default: ''
+    computed: {
+        datePretty() {
+            return getFormattedDate(this.date)
+        }
     }
-  },
-  computed: {
-    datePretty() {
-      return getFormattedDate(this.date)
-    }
-  }
 }
 </script>

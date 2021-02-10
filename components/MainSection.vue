@@ -32,22 +32,22 @@
 </template>
 <script>
 export default {
-  name: 'MainSection',
-  props: {
-    oneColumnConstrained: { type: Boolean, default: false },
-    theme: { type: String, default: '' }
-  },
-  computed: {
-    computedTheme() {
-      if (this.theme) {
-        return this.theme
-      }
-      if (this.$siteConfig.layout.theme) {
-        return this.$siteConfig.layout.theme
-      }
-      return 'one-column'
+    name: 'MainSection',
+    props: {
+        oneColumnConstrained: { type: Boolean, default: false },
+        theme: { type: String, default: '' }
+    },
+    computed: {
+        computedTheme() {
+            if (this.theme) {
+                return this.theme
+            }
+            if (this.$siteConfig.layout.theme) {
+                return this.$siteConfig.layout.theme
+            }
+            return 'one-column'
+        }
     }
-  }
 }
 </script>
 

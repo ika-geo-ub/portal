@@ -61,11 +61,11 @@
 <script>
 import ContactForm from '~/components/ContactForm'
 export default {
-  head() {
-    return {
-      title: `Contact | ${this.$siteConfig.siteName}`
-    }
-  },
-  components: { ContactForm }
+    head() {
+        return {
+            title: `Contact | ${this.$siteConfig.siteName}`
+        }
+    },
+    components: { ContactForm }
 }
 </script>

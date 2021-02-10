@@ -8,10 +8,10 @@
 </template>
 <script>
 export default {
-  head() {
-    return {
-      title: `Categories | ${this.$siteConfig.siteName}`
+    head() {
+        return {
+            title: `Categories | ${this.$siteConfig.siteName}`
+        }
     }
-  }
 }
 </script>

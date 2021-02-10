@@ -31,14 +31,14 @@
 </template>
 <script>
 export default {
-  name: 'DisqusComments',
-  props: {
-    identifier: { type: String, required: true }
-  },
-  data() {
-    return {
-      displayed: false
+    name: 'DisqusComments',
+    props: {
+        identifier: { type: String, required: true }
+    },
+    data() {
+        return {
+            displayed: false
+        }
     }
-  }
 }
 </script>

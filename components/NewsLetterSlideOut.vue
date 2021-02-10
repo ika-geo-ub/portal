@@ -23,25 +23,25 @@
 <script>
 import NewsLetterForm from '~/components/NewsLetterForm'
 export default {
-  name: 'NewsLetterSlideOut',
-  components: { NewsLetterForm },
-  data() {
-    return {
-      active: true
+    name: 'NewsLetterSlideOut',
+    components: { NewsLetterForm },
+    data() {
+        return {
+            active: true
+        }
+    },
+    computed: {
+        header() {
+            return (
+                this.$siteConfig.newsletter.heading || 'Subscribe to Our Newsletter'
+            )
+        }
+    },
+    methods: {
+        toggle() {
+            this.active = !this.active
+        }
     }
-  },
-  computed: {
-    header() {
-      return (
-        this.$siteConfig.newsletter.heading || 'Subscribe to Our Newsletter'
-      )
-    }
-  },
-  methods: {
-    toggle() {
-      this.active = !this.active
-    }
-  }
 }
 </script>
 <style lang="scss" scoped>

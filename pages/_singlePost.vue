@@ -38,30 +38,30 @@ import { setPageData, getFormattedDate } from '../helper'
 import Markdown from '~/components/Markdown'
 import PostSidebar from '~/components/PostSidebar'
 export default {
-  components: {
-    Markdown,
-    PostSidebar
-  },
-  computed: {
-    ...mapState([
-      'title',
-      'subtitle',
-      'featureImage',
-      'underSubtitle',
-      'author',
-      'category',
-      'slug'
-    ]),
-    date() {
-      return getFormattedDate(this.$store.state.date)
+    components: {
+        Markdown,
+        PostSidebar
     },
-    url() {
-      return `${process.env.URL}/${this.$route.fullPath}`
+    computed: {
+        ...mapState([
+            'title',
+            'subtitle',
+            'featureImage',
+            'underSubtitle',
+            'author',
+            'category',
+            'slug'
+        ]),
+        date() {
+            return getFormattedDate(this.$store.state.date)
+        },
+        url() {
+            return `${process.env.URL}/${this.$route.fullPath}`
+        }
+    },
+    fetch({ store, params }) {
+        setPageData(store, { resource: 'post', slug: params.singlePost })
     }
-  },
-  fetch({ store, params }) {
-    setPageData(store, { resource: 'post', slug: params.singlePost })
-  }
 }
 </script>
 <style scoped lang="scss">

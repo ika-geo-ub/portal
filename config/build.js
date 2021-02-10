@@ -1,31 +1,41 @@
-import purgecss from '@fullhuman/postcss-purgecss'
-import css from './css'
+import purgecss from '@fullhuman/postcss-purgecss';
+import css from './css';
+
 const build = {
   // extend webpack config here
   extend(config, ctx) {
     config.module.rules.push({
+      enforce: 'pre',
+      test: /\.(js|vue)$/,
+      loader: 'eslint-loader',
+      exclude: /(node_modules)/,
+      options: {
+        fix: true
+      }
+    });
+    config.module.rules.push({
       test: /\.md$/,
       use: [{ loader: 'gray-matter-loader' }]
     })
-    config.resolve.alias.vue = 'vue/dist/vue.common'
-  }
-}
+    config.resolve.alias.vue = 'vue/dist/vue.common';
+  },
+};
 if (process.env.NODE_ENV === 'production') {
   // build.analyze = true
   build.postcss = {
     preset: {
       features: {
-        customProperties: false
-      }
+        customProperties: false,
+      },
     },
     plugins: [
       purgecss({
         content: [
           './pages/**/*.vue',
           './layouts/**/*.vue',
-          './components/**/*.vue'
+          './components/**/*.vue',
         ],
-        css: css,
+        css,
         whitelist: [
           'html',
           'body',
@@ -52,12 +62,12 @@ if (process.env.NODE_ENV === 'production') {
           'tr',
           'tbody',
           'thead',
-          'tfoot'
+          'tfoot',
         ],
-        whitelistPatterns: [/theme/g, /spinner-position/, /fa/, /table/g]
-      })
-    ]
-  }
+        whitelistPatterns: [/theme/g, /spinner-position/, /fa/, /table/g],
+      }),
+    ],
+  };
 }
 
-export default build
+export default build;
