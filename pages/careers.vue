@@ -3,7 +3,7 @@
     <site-hero
       title="Careers"
       subtitle="Job Opportunities list"
-      image="/uploads/about-hero.jpg"
+      image="/uploads/about-career.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>

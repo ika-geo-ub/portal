@@ -3,7 +3,7 @@
     <site-hero
       title="Member List"
       subtitle="Members of Ikatan Alumni Geofisika UB"
-      image="/uploads/about-hero.jpg"
+      image="/uploads/about-member.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>

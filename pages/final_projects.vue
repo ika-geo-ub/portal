@@ -3,7 +3,7 @@
     <site-hero
       title="Final Projects"
       subtitle="Final Projects Opportunities list"
-      image="/uploads/about-hero.jpg"
+      image="/uploads/about-project.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
