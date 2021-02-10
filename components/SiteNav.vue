@@ -13,7 +13,7 @@
           :alt="$siteConfig.siteName"
           class="logo"
         />
-        IKA-GEO UB
+        <h3>IKA-GEO UB</h3>
       </nuxt-link>
       <hamburger-button @click="active = !active" />
     </div>
