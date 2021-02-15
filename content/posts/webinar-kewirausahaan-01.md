@@ -1,5 +1,5 @@
 ---
-title: Webinar Kewirausahaan 01
+title: Prepare Your Future With Innovation And Enterpreneurship
 subtitle: Webinar Kewirausahaan
 category:
   - Multi Disiplin Ilmu
