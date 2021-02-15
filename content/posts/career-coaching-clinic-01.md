@@ -4,7 +4,7 @@ subtitle: Menyiapkan Diri Masuk Dunia Kerja
 category:
   - Pengembangan Karir Mahasiswa
 author: Tim Pengembangan Karir Mahasiswa
-date: 2021-02-15T02:51:48.299Z
+date: 2021-01-14T17:00:00.000Z
 featureImage: /uploads/carrer_coaching_poster.png
 ---
 
