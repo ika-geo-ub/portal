@@ -1,5 +1,5 @@
 ---
-title: Ngopi Bareng 01
+title: 'Ngopi Bareng: "Melangkah Bersama Geofisika UB"'
 subtitle: Melangkah bersama Geofisika UB
 category:
   - Sains & Teknologi Kebumian
