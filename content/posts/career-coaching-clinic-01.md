@@ -4,7 +4,7 @@ subtitle: Menyiapkan Diri Masuk Dunia Kerja
 category:
   - Pengembangan Karir Mahasiswa
 author: Tim Pengembangan Karir Mahasiswa
-date: 2021-01-14T17:00:00.000Z
+date: 2021-01-15T17:00:00.000Z
 featureImage: /uploads/carrer_coaching_poster.png
 ---
 Menghadapi revolusi industri 4.0, generasi muda dalam usia produktif makin berlomba dalam mendapatkan pekerjaan terbaik sesuai dengan latar belakang Pendidikan mereka. Banyak persiapan yang perlu ditempuh dalam proses perencanaan karir tersebut, sehingga hasil yang dicapai sesuai dengan apa yang diimpikan. Perencanaan karir memerlukan persiapan yang matang, sehingga sedini mungkin hal tersebut sudah disadari oleh para mahasiswa, jauh sebelum kelulusan dari Perguruan Tinggi sudah di depan mata.
