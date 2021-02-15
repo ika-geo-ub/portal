@@ -7,11 +7,9 @@ author: Tim Pengembangan Karir Mahasiswa
 date: 2021-01-14T17:00:00.000Z
 featureImage: /uploads/carrer_coaching_poster.png
 ---
-
-
 Menghadapi revolusi industri 4.0, generasi muda dalam usia produktif makin berlomba dalam mendapatkan pekerjaan terbaik sesuai dengan latar belakang Pendidikan mereka. Banyak persiapan yang perlu ditempuh dalam proses perencanaan karir tersebut, sehingga hasil yang dicapai sesuai dengan apa yang diimpikan. Perencanaan karir memerlukan persiapan yang matang, sehingga sedini mungkin hal tersebut sudah disadari oleh para mahasiswa, jauh sebelum kelulusan dari Perguruan Tinggi sudah di depan mata.
 
-Ikatan Alumni Geofisika Universitas Brawijaya berinsiatif melaksanakan kegiatan workshop mengenai “Career Coaching Clinic” melalui Zoom - daring, Jum’at, 15 Januari 2021. IKA Geo UB mengundang satu narasumber, yaitu Bapak Wahyudi, S.Si., M.M. selaku Ast. Manajer HCBP HCM Dit. SDM PT. Pertamina (Persero) Jawa Tengah & DIY dan dihadiri 110 peserta yang secara mayoritas berasal dari Mahasiswa S1 Program Studi Geofisika Universitas Brawijaya. Acara tersebut dilaksanakan sebagai ajang persiapan mahasiswa dalam membuka wawasan pembekalan kompetensi yang dibutuhkan dalam mempersiapkan karir setelah menyelesaikan studi S1.
+Ikatan Alumni Geofisika Universitas Brawijaya berinsiatif melaksanakan kegiatan workshop mengenai “Career Coaching Clinic” melalui Zoom - daring, Jum’at, 15 Januari 2021. IKA Geo UB mengundang satu narasumber, yaitu Bapak Wahyudi, S.Si., M.M. selaku Ast. Manajer HCBP HCM Dit. SDM PT. Pertamina (Persero) Jawa Tengah & DIY dan dihadiri 113 peserta yang secara mayoritas berasal dari Mahasiswa S1 Program Studi Geofisika Universitas Brawijaya. Acara tersebut dilaksanakan sebagai ajang persiapan mahasiswa dalam membuka wawasan pembekalan kompetensi yang dibutuhkan dalam mempersiapkan karir setelah menyelesaikan studi S1.
 
 Kegiatan dibuka dengan sambutan oleh Perwakilan Dosen Universitas Brawijaya, Bapak Sukir Maryanto, Ph.D., “Acara career coaching clinic ini merupakan acara pertama yang diselenggarakan oleh IKA Geo UB. Kegiatan semacam ini diharapkan diselenggarakan secara rutin karena akan sangat bermanfaat tidak hanya untuk meningkatkan keilmuan para peserta, tetapi juga akreditasi jurusan Geofisika UB.”, ucap Pak Sukir.
 
