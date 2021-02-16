@@ -3,7 +3,7 @@ title: 'Career Coaching Clinic: "Menyiapkan Diri Masuk Dunia Kerja"'
 subtitle: Menyiapkan Diri Masuk Dunia Kerja
 category:
   - Pengembangan Karir Mahasiswa
-author: Tim Pengembangan Karir Mahasiswa
+author: Bella Safitri
 date: 2021-01-15T17:00:00.000Z
 featureImage: /uploads/carrer_coaching_poster.png
 ---
