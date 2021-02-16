@@ -3,7 +3,7 @@ title: 'Ngopi Bareng: "Melangkah Bersama Geofisika UB"'
 subtitle: Melangkah bersama Geofisika UB
 category:
   - Sains & Teknologi Kebumian
-author: Tim Editor
+author: Dipika Anggun Ardianti
 date: 2021-02-14T06:17:24.854Z
 featureImage: /uploads/ngobar_poster.png
 ---
