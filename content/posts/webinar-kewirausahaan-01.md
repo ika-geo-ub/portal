@@ -3,7 +3,7 @@ title: Prepare Your Future With Innovation And Enterpreneurship
 subtitle: Webinar Kewirausahaan
 category:
   - Multi Disiplin Ilmu
-author: Tim Editor
+author: Titan Parasita Siradj
 date: 2021-01-24T17:59:00.000Z
 featureImage: /uploads/webinar_kewirausahaan_poster.png
 ---
