@@ -18,6 +18,7 @@ const at_base = new Airtable({
 const at_table_users = at_base('members')
 
 exports.handler = (event, context, callback) => {
+	console.log(process.env.BASE_ID)
 	
 	function doHash (val_to_hash) {
 		return new Promise( (resolve, reject) => {
@@ -112,28 +113,41 @@ exports.handler = (event, context, callback) => {
 			.then( users => {
 				if ( users.length > 0) {
 					users.forEach( userObj => {
-						responseObj = {
-							'JenjangPendidikan': [ 'S1' ],
-							'Email': 'rizgust@gmail.com',
-							'GelarLengkap': 'S.Si',
-							'JenisKelamin': 'Laki Laki',
-							'NIM': 1030903001,
-							'BidangMinat': 'Eksplorasi minyak dan gas bumi',
-							'No.Telp./HP': 0,
-							'TahunLulus': 2014,
-							'TahunMasuk': 2010,
-							'NamaLengkap': 'rizky gustiansyah',
-							'AlamatDomisili': '-',
-							'Number': 'IK-2010-0001'
+						if(auth_pw==userObj.get('Password')){
+							responseObj = {
+								'JenjangPendidikan': userObj.get('Jenjang Pendidikan'),
+								'Email': userObj.get('Email'),
+								'GelarLengkap': userObj.get('Gelar Lengkap'),
+								'JenisKelamin': userObj.get('Jenis Kelamin'),
+								'NIM': userObj.get('NIM'),
+								'BidangMinat': userObj.get('Bidang Minat'),
+								'No.Telp./HP': userObj.get('No. Telp./HP'),
+								'TahunLulus': userObj.get('Tahun Lulus'),
+								'TahunMasuk': userObj.get('Tahun Masuk'),
+								'NamaLengkap': userObj.get('Nama Lengkap'),
+								'AlamatDomisili': userObj.get('Alamat Domisili'),
+								'Number': userObj.get('Number'),
+							}
+							callback(null, {
+								statusCode: 200,
+								headers: { 
+									'Content-Type': 'application/json',
+									// 'Set-Cookie': 'cinesesh=' + resp.fields['sesh'] + ';path=/;HttpOnly'
+								},
+								body: JSON.stringify(responseObj)
+							})
+						} else {
+							let resp = {
+								'statusCode': 401,
+								'error': 'User & Password not match',
+								'message': 'That user & password not found'
+							}					
+							callback(null, {
+								statusCode: 401,
+								headers: { 'Content-Type': 'application/json' },
+								body: JSON.stringify(resp)
+							})
 						}
-						callback(null, {
-							statusCode: 200,
-							headers: { 
-								'Content-Type': 'application/json',
-								// 'Set-Cookie': 'cinesesh=' + resp.fields['sesh'] + ';path=/;HttpOnly'
-							},
-							body: JSON.stringify(responseObj)
-						})
 					})
 				} else {
 					/** User not found */					
