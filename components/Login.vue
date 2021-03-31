@@ -35,7 +35,8 @@
           </div>
         </div>
         <div class="control">
-          <button @click="login" class="button is-primary">
+          <p class="error">{{errorMessege}}</p>
+          <button @click="login" class="button is-primary" :disabled="disableLogin">
             Login
           </button>
           <p class="register">Not registered? <a href="./register">Apply now</a></p>
@@ -50,15 +51,25 @@ export default {
     data() {
         return {
             email: '',
-            pass: ''
+            pass: '',
+            errorMessege: '',
+            processing: false
+        }
+    },
+    computed:{
+        disableLogin(){
+            return this.processing ? true : false
         }
     },
     methods:{
-        login(){
+        login(){          
+            this.errorMessege = '';
+            this.processing = true;
+            var _ = this;
             var data = JSON.stringify({"auth_task":"auth_login","auth_eml":this.email,"auth_pw":this.pass});
             var config = {
                 method: 'post',
-                url: 'https://ikageo-ub.netlify.app/.netlify/functions/at_auth',
+                url: 'http://localhost:8888/.netlify/functions/at_auth',
                 headers: { 
                     'Content-Type': 'application/json'
                 },
@@ -68,9 +79,13 @@ export default {
             this.$axios(config)
                 .then(function (response) {
                     console.log(JSON.stringify(response));
+                    _.$store.commit('setUserData', response.data);
+                    _.processing = false;
                 })
                 .catch(function (error) {
+                    _.errorMessege = 'Invalid Email or Password';
                     console.log(error);
+                    _.processing = false;
                 });
         }
     }
@@ -112,6 +127,15 @@ export default {
 }
 .form .register a {
   color: #4CAF50;
+  text-decoration: none;
+}
+.form .error {
+  margin: 15px 0 0;
+  color: #FF0000;
+  font-size: 12px;
+}
+.form .error a {
+  color: #FF0000;
   text-decoration: none;
 }
 .form .register-form {
