@@ -41,10 +41,10 @@ export default {
     },
     computed: {
         classContent() {
-            return this.$store.state.userData != null ? 'content' : 'is-hidden'
+            return this.$store.state.localStorage.userData != null ? 'content' : 'is-hidden'
         },
         classLogin() {
-            return this.$store.state.userData == null ? 'content' : 'is-hidden'
+            return this.$store.state.localStorage.userData == null ? 'content' : 'is-hidden'
         }
     },
     components: { QuoteCard,Login }
