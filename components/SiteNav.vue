@@ -43,6 +43,19 @@
         <li class="navbar-item site-search-wrapper">
           <site-search />
         </li>
+        <li
+          :class="classLogout"
+          @click="logout"
+        >
+          <component
+            :is="'nuxt-link'"
+            :href="''"
+            :to="''"
+            :target="'_self'"
+          >
+            Logout
+          </component>
+        </li>
       </ul>
     </div>
   </nav>
@@ -56,6 +69,16 @@ export default {
     data() {
         return {
             active: false
+        }
+    },
+    computed: {
+        classLogout() {
+            return this.$store.state.localStorage.userData != null ? 'navbar-item content' : 'is-hidden'
+        }
+    },
+    methods:{
+        logout(){
+            this.$store.commit('setUserData', null)
         }
     }
 }
