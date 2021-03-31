@@ -6,12 +6,15 @@ export const state = () => ({
     featureImage: '',
     content: '',
     author: '',
-    date: ''
+    date: '',
 })
 export const mutations = {
     set(state, data) {
         state = Object.assign(state, data)
-    }
+    },
+    setUserData(state, payload) {
+        state.localStorage.userData = payload;
+    },
 }
 export const actions = {
     nuxtServerInit(store, context) {
