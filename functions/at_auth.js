@@ -139,8 +139,8 @@ exports.handler = (event, context, callback) => {
 						} else {
 							let resp = {
 								'statusCode': 401,
-								'error': 'User & Password not match',
-								'message': 'That user & password not found'
+								'error': 'User & Password do not match',
+								'message': 'That user & password do not match'
 							}					
 							callback(null, {
 								statusCode: 401,
