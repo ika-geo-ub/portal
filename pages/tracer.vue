@@ -6,16 +6,19 @@
       image="/uploads/about-tracer.jpg"
     ></site-hero><main-section theme="sidebar-right">
       <template v-slot:default>
-        <div class="content">
+        <div :class="classContent">
           <h3>Member List</h3>
           <iframe
             class="airtable-embed"
-            src="https://airtable.com/embed/shrMAijyxlZsXjSdI?backgroundColor=gray&viewControls=on"
+            src="https://airtable.com/embed/shrMF0YiSQSA3K9vD?backgroundColor=gray&layout=card&viewControls=on"
             frameborder="0"
             onmousewheel=""
             width="100%"
             style="background: transparent; border: 1px solid #fff; height: 1400px;"
           ></iframe>
+        </div>
+        <div :class="classLogin">
+          <Login/>
         </div>
       </template>
       <template v-slot:sidebar>
@@ -29,12 +32,21 @@
 </template>
 <script>
 import QuoteCard from '~/components/cards/QuoteCard'
+import Login from '~/components/Login'
 export default {
     head() {
         return {
             title: `About | ${this.$siteConfig.siteName}`
         }
     },
-    components: { QuoteCard }
+    computed: {
+        classContent() {
+            return this.$store.state.userData != null ? 'content' : 'is-hidden'
+        },
+        classLogin() {
+            return this.$store.state.userData == null ? 'content' : 'is-hidden'
+        }
+    },
+    components: { QuoteCard,Login }
 }
 </script>
