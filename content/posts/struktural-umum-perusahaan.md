@@ -2,7 +2,7 @@
 title: Struktural Umum Perusahaan
 subtitle: Struktural Umum Perusahaan
 category:
-  - Pengembangan Karir Mahasiswa
+  - Multi Disiplin Ilmu
 author: Titan P. Siradj
 date: 2021-04-01T02:29:34.420Z
 featureImage: /uploads/webinar-4-poster.jpeg.jpg
