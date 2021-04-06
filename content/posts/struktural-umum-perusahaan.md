@@ -1,0 +1,22 @@
+---
+title: Struktural Umum Perusahaan
+subtitle: Struktural Umum Perusahaan
+category:
+  - Multi Disiplin Ilmu
+author: Titan P. Siradj
+date: 2021-04-01T02:29:34.420Z
+featureImage: /uploads/webinar-4-poster.jpeg.jpg
+---
+<!--StartFragment-->
+
+Pada kesempatan kali ini Divisi Multi Disiplin Ilmu mengadakan webinar yang mengangkat tema “**Mengenal Struktural Umum Perusahaan**” dengan **Ruben Tiantoro, S.Si**. sebagai pemateri. Beliau merupakan alumni Geofisika UB angkatan 2006 yang setelah lulus dari Universitas Brawijaya terjun ke dunia perbankan selama delapan tahun dan saat ini menekuni dunia entrepreneur di bidang videografi. Harapan diadakannya webinar ini, dapat menambah wawasan tentang struktur internal perusahaan bagi rekan mahasiswa baik yang masih dalam proses studi maupun *fresh graduate*, sehingga bisa mempersiapkan diri menghadapi dunia kerja. 
+
+Sesi pertama pemateri menjelaskan tentang bagan struktural perusahaan dan sub ordinat di bawahnya beserta tanggung jawab dan job desk dari posisi tersebut. Pemateri menjabarkan tentang bagian yang ada di perusahan diantaranya yaitu Owner, Direksi, Marketing, Teknik, Keuangan dan Pengawas. Pada bagian Owner terdapat sub bagian yang terdiri dari Pemegang Saham (***Share Holder***)*,* Pemilik(***Owner*/*Investor***) dan Komisaris. Bagian Direksi terdapat BOD (***Board of Directors***), CEO (***Chief Executive Officer***) **/** Direktur Utama, CFO (***Chief Financial Officer*) /** Direktur Keuangan, COO (***Chief Operating Officer***) /Direktur Operational, CMO (***Chief Marketing Officer)* /** Direktur Marketingdan CTO** *(Chief Technology Officer)* /** Direktur Teknik. Bagian Pemasaran / Marketing terdapat tim yang mengatur strategi, *timing*, riset, pengembangan dan review produk, serta analisis SWOT (***Strenghts Weaknesses Opportunities Threats***). Bagian Teknik terdapat tim yang bertugas sebagai operator jalannya perusahaan, analisis resiko, ***maintenance equipment*** & ***system***, serta riset teknologi dan informasi. Bagian keuangan terdapat tim yang mengelola keuangan, pajak/***tax***, asuransi, investasi, dan perlengkapan yang menunjang kebutuhan perusahaan. Bagian pengawas terdapat tim yang mengawasi jalannya SOP (***Standart Operational Precedure***), audit internal, WB *System* (***Whiste Bowing System***), dan manajemen resiko (***risk management***).
+
+Sesi kedua berbagi pengalaman tentang bagaimana langkah awal sebelum melamar pekerjaan di perusahaan, prosedur rekrutmen perusahaan, tips dan trik proses rekrutmen perusahaaan. Diawali dengan mengenal detail perusahaan, kredibilitas dan validasi dari perusahaan yang akan dilamar. Melihat kesesuaian dengan bidang minat, passion dan semangat yang dimiliki calon pelamar pada jenjang karir yang ada di perusahaan yang akan dilamar. Lakukan yang terbaik dalam pembuatan CV (***Curriculum Vitae***) dengan memperhatikan tema dan konten CV, namun tidak berlebihan. Hal yang tidak kalah penting adalah etika membuat surat lamaran, dimana ada beberapa point penting yang harus diperhatikan, yaitu bahasa, sifat diri dan formalitas. Beberapa hal yang perlu dipersiapkan calon pelamar dalam proses rekrutmen perusahaan, yaitu ***endurance*** (kecepatan, ketelitian, ketahanan, kestabilan), pengetahuan umum/***Intelegensi*** (rasa ingin tahu, kecerdasan, pengetahuan), FGD / ***Focus Group Discussion*** (komunikasi, etika berdiskusi, kerja dalam tim, ketegasan dalam bermusyawarah), dan ***personality test*** (psikologi, kepedulian, sifat dan kepribadian). Dalam sesi ini juga disampaikan mengenai sisi kelebihan dan tantangan dari masing-masing posisi di perusahaan, sehingga diharapkan para audien, khususnya mahasiswa bisa mendapat gambaran mengenai posisi apa yang akan dilamar dikemudian hari.
+
+            Sesi terakhir adalah pembagian doorprize yang disponsori oleh ***CUBE Pictures*** sekaligus sesi tanya jawab dan sharing pengalaman antara pemateri dengan audien. Pada sesi ini pemateri berbagi pengalaman bagaimana saat awal mula mendirikan ***CUBE Pictures***, apa yang harus dilakukan, bagaimana menghadapi tantangan dan mengelola bisnis tersebut. Di akhir acara juga ada sharing pengalaman antara para alumni, Bapak Drs.Didik Yudianto, M.Si. sebagai perwakilan dosen Teknik Geofisika UB dengan pemateri saat bekerja di perusahaaan, khususnya proses rekrutmen, tips dan trik saat psikotest dan *Focus Group Discussion*.
+
+![](/uploads/webinar-4.jpeg)
+
+<!--EndFragment-->
