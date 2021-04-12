@@ -7,7 +7,7 @@ author: Joko Wiyono dan Warto Utomo
 date: 2021-04-12T02:25:43.372Z
 featureImage: /uploads/webinar-5-poster.jpeg
 ---
-<!--StartFragment-->
+
 
 Suatu anugerah yang tiada tara, bumi yang kita pijak mempunyai keanekaraganan hayati yang hidup berdampingan dan saling mengisi kehidupan. Alam yang indah menyimpan potensi kekayaannya untuk kehidupan, dan potensi bencana. Potensi bencana itu antara lain, gunung meletus, tanah longsor, banjir bandang dll adalah beberapa contoh dari bencana alam yang dipicu oleh alam dan aktivitas manusia. Setiap daerah mempunyai nilai ambang batas tertentu tingkat kebencanaannya. Peristiwa tersebut akan terjadi berulang - ulang  dengan tingkatan yang berbeda – beda tanpa dapat diketahui secara pasti dan tidak dapat diprediksi. Namun demikian, dengan sikap kesiapsiagaan yang serius, upaya antisipasi yang menyeluruh secara tepat dengan menempatkan komunitas masyarakat daerah rawan bencana sebagai subyek mitigasi bencana melalui sinergi dengan berbagai pihak, diharapkan kerentanan terhadap ancaman bencana yang melekat pada komunitas masyarakat daerah rawan bencana dapat direduksi semaksimal mungkin sehingga risiko-risiko bencana yang terjadi dapat diminimalkan.
 
@@ -46,7 +46,5 @@ Susur pantai di sepanjang patai selatan Jawa Timur dilakukan dengan cara menyusu
 Dari kegiatan-kegiatan pecinta alam tersebut dapat disimpulkan bahwa peran pecinta alam sudah waktunya ditingkatkan manfaatnya ke tingkat mitigasi, karena Sebagian besar penggiat alam adalah manusia-manusia yang terjun langsung berinteraksi dengan alam lingkungan dan masyarakat sekitar. Tentu saja para pecinta alam harus dikoordinir lagi dengan beberapa keilmuan lainnya agar mendapatkan hasil yang bermanfaat lebih buat masyarakat, bangsa, dan negara.
 
 WEBINAR Kebencanaan ini mendapat respon positif dari peserta dan pemateri. semoga kedepannya bisa terlaksana kegiatan serupa dengan melibatkan lebih banyak komunitas geosains dan pecinta alam.
-
-<!--EndFragment-->
 
 ![](/uploads/webinar-5-divisi-pengabdian.png)
