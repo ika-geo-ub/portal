@@ -13,7 +13,7 @@
           :alt="$siteConfig.siteName"
           class="logo"
         />
-        <h3>IKA-GEO UB</h3>
+        <h3><b>IKA GEOFISIKA UB</b></h3>
       </nuxt-link>
       <hamburger-button @click="active = !active" />
     </div>
@@ -37,7 +37,7 @@
             :to="item.link"
             :target="item.target ? item.target : '_self'"
           >
-            {{ item.name }}
+            <b>{{ item.name }}</b>
           </component>
         </li>
         <li class="navbar-item site-search-wrapper">

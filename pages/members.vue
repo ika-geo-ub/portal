@@ -32,7 +32,7 @@
 export default {
     head() {
         return {
-            title: `About | ${this.$siteConfig.siteName}`
+            title: `Anggota | ${this.$siteConfig.siteName}`
         }
     },
     components: {}

@@ -23,7 +23,7 @@ export default {
     name: 'HomePage',
     head() {
         return {
-            title: `Home | ${this.$siteConfig.siteName}`
+            title: `${this.$siteConfig.siteName}`
         }
     },
     components: {},

@@ -36,7 +36,7 @@ import Login from '~/components/Login'
 export default {
     head() {
         return {
-            title: `About | ${this.$siteConfig.siteName}`
+            title: `Tracer | ${this.$siteConfig.siteName}`
         }
     },
     computed: {

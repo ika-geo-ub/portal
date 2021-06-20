@@ -34,7 +34,7 @@
 export default {
     head() {
         return {
-            title: `About | ${this.$siteConfig.siteName}`
+            title: `Info Loker | ${this.$siteConfig.siteName}`
         }
     },
     components: {}
