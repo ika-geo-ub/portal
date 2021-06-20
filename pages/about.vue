@@ -74,11 +74,11 @@
           <h1>Struktur Organisasi</h1>
           <img :src="'/Structure.png'">
           <h1>Program Kerja</h1>
-          <p>&#9679; Pendataan  dan Pemetaan Minat  Alumni</p>
-          <p>&#9679; Sharing Session dengan tema Kebumian, Enterpreneur, Soft Skill, dan Pengabdian kepada Masyarakat.</p>
-          <p>&#9679; Membuat Website dan Media Sosial sebagai rumah virtual IKA.</p>
-          <p>&#9679; Sebagai Fasilitator dalam MoU dan kunjungan rutin antara pihak Program Studi dengan Perusahaan</p>
-          <p>&#9679; Pengenalan Geofisika/Ilmu Kebumian ke Sekolah Menengah Atas/setara</p>
+          <p class="tight">&#9679; Pendataan  dan Pemetaan Minat  Alumni</p>
+          <p class="tight">&#9679; Sharing Session dengan tema Kebumian, Enterpreneur, Soft Skill, dan Pengabdian kepada Masyarakat.</p>
+          <p class="tight">&#9679; Membuat Website dan Media Sosial sebagai rumah virtual IKA.</p>
+          <p class="tight">&#9679; Sebagai Fasilitator dalam MoU dan kunjungan rutin antara pihak Program Studi dengan Perusahaan</p>
+          <p class="tight">&#9679; Pengenalan Geofisika/Ilmu Kebumian ke Sekolah Menengah Atas/setara</p>
         </div>
       </template>
 
