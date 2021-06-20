@@ -11,7 +11,7 @@ import theCMS from '../cms/netlify/cms'
 export default {
     siteName: 'IKA Geofisika UB',
     tagline: 'Ikatan Alumni Geofisika Universitas Brawijaya',
-    featureImage: '/uploads/home-hero.jpg',
+    featureImage: '/uploads/about-hero.jpg',
     logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
     googleAnalytics: {
         on: true,
