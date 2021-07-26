@@ -8,10 +8,6 @@ author: Hena Dian, Joko Wiyono, Warto Utomo
 date: 2021-07-26T09:46:00.802Z
 featureImage: /uploads/webinar-7.jpeg
 ---
-
-
-
-
 Indonesia berada di jalur ring of fire, menyimpan kekayaan alam yang tiada tara, akan tetapi disatu sisi juga menyimpan potensi bencana. Potensi bencana itu antara lain, gunung meletus, gempa, tsunami, tanah longsor, banjir bandang dll. Bencana akan terjadi berulang - ulang dengan tingkatan frekuensi yang berbeda – beda dan tanpa dapat diketahui secara pasti dan tidak dapat diprediksi. Bencana alam adalah bencana yang diakibatkan oleh peristiwa atau serangkaian peristiwa yang disebabkan oleh alam antara lain berupa gempa bumi, tsunami, gunung meletus, banjir, kekeringan, angin topan, dan tanah longsor. Dalam alam yang indah dan tenang, kita belajar akan keindahan. Dalam Alam yang dihinggapi bencana, kita belajar pentingnya merawat keindahan.
 The World Risk Index tahun 2019, menempatkan Indonesia  pada peringkat 12 dari 180 negara paling rentan bencana, baik bencana geologi, volkanologi maupun bencana hidrometeorologi. Namun pada kenyataannya Indonesia menduduki peringkat pertama di dunia dari segi jumlah korban akibat bencan alam. Jika ditarik benang merah, hal ini membuktikan kurangnya pemahaman masyarakat akan mitigasi bencana. Salah satu solusi permasalahan ini adalah memahamkan masyarakat akan mitigasi bencana dan potensinya melalui pendidikan di sekolah, karena siswa berpotensi sebagai salah satu agen perubahan masyarakat.
 Mitigasi adalah serangkaian upaya untuk mengurangi resiko bencana baik melalui pembangunan fisik maupun penyadaran dan peningkatan kemampuan menghadapi ancaman bencana. Sedangkan Bencana adalah peristiwa atau rangkaian peristiwa yang mengancam dan mengganggu kehidupan dan penghidupan masyarakat yang disebabkan, baik oleh faktor alam dan/atau faktor non alam maupun faktor manusia sehingga mengakibatkan timbulnya korban jiwa manusia, kerusakan lingkungan, kerugian harta benda, dan dampak psikologis (UU Nomor 24 Tahun 2007 tentang Penanggulangan Bencana).
@@ -41,6 +37,4 @@ Webinar diikuti oleh lebih dari 126 peserta yang hadir meliputi guru dan siswa S
 
 ![](/uploads/rundown-acara.png)
 
-
-
-Rekaman Acara **WEBINAR** **GEOPHYSICS GOES TO (VIRTUAL) SCHOOL** dapat ditonton di Channel Youtube **IKA GEOFISIKA UB** dengan klik link [https://youtu.be/zFGkwJuETKU](https://www.youtube.com/watch?v=zFGkwJuETKU)
+Rekaman Acara **WEBINAR** **GEOPHYSICS GOES TO (VIRTUAL) SCHOOL** dapat ditonton di Channel Youtube **IKA GEOFISIKA UB** dengan klik link **[https://youtu.be/zFGkwJuETKU](https://www.youtube.com/watch?v=zFGkwJuETKU)**
