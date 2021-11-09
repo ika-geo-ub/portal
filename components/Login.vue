@@ -69,7 +69,7 @@ export default {
             var data = JSON.stringify({"auth_task":"auth_login","auth_eml":this.email,"auth_pw":this.pass});
             var config = {
                 method: 'post',
-                url: 'http://localhost:8888/.netlify/functions/at_auth',
+                url: 'https://ikageo-ub.netlify.app/.netlify/functions/at_auth',
                 headers: { 
                     'Content-Type': 'application/json'
                 },
