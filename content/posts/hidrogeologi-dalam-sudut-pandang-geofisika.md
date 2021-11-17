@@ -3,6 +3,7 @@ title: Hidrogeologi Dalam Sudut Pandang Geofisika
 subtitle: Webinar 6
 category:
   - Sains & Teknologi Kebumian
+  - Web & Media Sosial
 author: Emanuel Grace Manek
 date: 2021-04-28T06:56:23.103Z
 featureImage: /uploads/webinar-6-poster.jpeg
