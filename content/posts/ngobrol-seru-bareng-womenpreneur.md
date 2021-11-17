@@ -16,3 +16,9 @@ Kami dari Divisi Multi Disiplin Ilmu IKAGEOUB akan mengadakan webinar kewirausah
 Pendaftaran langsung pada hari H dengan mengisi presensi kehadiran saat webinar berlangsung. 
 
 Happy Enjoy
+
+
+
+Sekilas tentang Pemateri Izma Yuliansyah:
+
+![Founder Dapur Bu Sastro](/uploads/webinar_kewirausahaan_02-pemateri.jpeg)
