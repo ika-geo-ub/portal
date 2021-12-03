@@ -65,16 +65,16 @@ Diskusi dan dengar pendapat dilanjutkan dengan diskusi dan masukan dari Dewan Pe
 Do’a dan Penutup 
 Do’a dipimpin oleh Joko Wiyono dilanjutkan penutup oleh MC
 
-![Pembukaan oleh Putu Ayu Saraswati (MC)](/uploads/mc.jpg)
+![Pembukaan oleh Putu Ayu Saraswati (MC)](/uploads/mc.jpg "Pembukaan oleh Putu Ayu Saraswati (MC)")
 
-![Sambutan oleh Prof. Dr. Sunaryo, M.Si. selaku Ketua Prodi Teknik Geofisika](/uploads/pak-sun.jpg)
+![Sambutan oleh Prof. Dr. Sunaryo, M.Si. selaku Ketua Prodi Teknik Geofisika](/uploads/pak-sun.jpg "Sambutan oleh Prof. Dr. Sunaryo, M.Si. selaku Ketua Prodi Teknik Geofisika")
 
 ![Sambutan oleh Arief Rahman, M.Si. selaku Ketua IKA Geofisika](/uploads/arief.jpg)
 
-![Diskusi dan dengar pendapat dipandu oleh Chaerul Firmansyah (Moderator)](/uploads/chaerul.jpg)
+![Diskusi dan dengar pendapat dipandu oleh Chaerul Firmansyah (Moderator)](/uploads/chaerul.jpg "Diskusi dan dengar pendapat dipandu oleh Chaerul Firmansyah (Moderator)")
 
-![Pemaparan Laporan Kinerja Tahun 2021 serta Usulan Program Kerja di tahun 2022 oleh Warto Utomo](/uploads/tomo.jpg)
+![Pemaparan Laporan Kinerja Tahun 2021 serta Usulan Program Kerja di tahun 2022 oleh Warto Utomo](/uploads/tomo.jpg "Pemaparan Laporan Kinerja Tahun 2021 serta Usulan Program Kerja di tahun 2022 oleh Warto Utomo")
 
-![Do’a oleh Joko Wiyono](/uploads/joko.jpg)
+![Do’a oleh Joko Wiyono](/uploads/joko.jpg "Do’a oleh Joko Wiyono")
 
-![Peserta Musang#1](/uploads/peserta.jpg)
+![Peserta Musang#1](/uploads/peserta.jpg "Peserta Musang#1")
