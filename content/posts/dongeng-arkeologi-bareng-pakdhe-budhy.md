@@ -5,7 +5,7 @@ subtitle: Webinar
 category:
   - Multi Disiplin Ilmu
 author: "Titan Parasita Siradj "
-date: 2021-12-08T02:04:04.183Z
+date: 2022-01-08T02:04:04.183Z
 featureImage: /uploads/arkeolog-flyer.jpeg
 ---
 Dear, kawan. \
